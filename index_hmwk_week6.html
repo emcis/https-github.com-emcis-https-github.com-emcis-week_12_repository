@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Week6</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="container flex mx-auto rounded border border-primary m-5">
+    <br><div id = "new-unicorn" class="jumbotron">
+        <div class="container flex rounded border border-primary">
+            <h1>Unicorn List</h1>
+        </div>
+        <br><h2>Create Unicorn</h2>
+        <input type= "text" id="new-unicorn-name" class="form-control" placeholder="Unicorn Name"> <br>
+        <input type= "text" id="new-unicorn-color" class="form-control" placeholder="Unicorn Color"> <br>
+        <div class="col-md-3">
+            <label for="new-unicorn-region" class="form-label">Region</label>
+            <select class="form-select" id="new-unicorn-region" required>
+              <option selected disabled value="">Choose...</option>
+              <option>North</option><option>South</option><option>East</option>
+              <option>West</option>
+            </select>
+            <div class="invalid-feedback">
+              Please choose a region.
+            </div><br>
+        <button id="create-new-unicorn" class="btn btn-primary form-control">Create Unicorn</button>
+    </div>
+
+    <div id="app">
+
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="Index-hmwk_week6.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
+</body>
+</html>
+ 

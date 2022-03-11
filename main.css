@@ -1,0 +1,13 @@
+html  {
+    background: cyan;
+}
+
+h1,h2,h3 {
+    color: purple;
+}
+input {
+    color:yellow;
+}
+button {
+    color:green;
+}

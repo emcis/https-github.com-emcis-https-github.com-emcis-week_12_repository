@@ -1,0 +1,11 @@
+.blue{
+    color:blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.userInfoClass{
+    background-color:rgb(55, 131, 156);
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
